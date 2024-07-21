@@ -72,11 +72,9 @@ const CollaborativeRoom = ({ roomId, roomMetadata, users, currentUserType }: Col
                 <Input 
                   type="text"
                   value={documentTitle}
-                  ref={inputRef}
                   placeholder="Enter title"
                   onChange={(e) => setDocumentTitle(e.target.value)}
                   onKeyDown={updateTitleHandler}
-                  disable={!editing}
                   className="document-title-input"
                 />
               ) : (
