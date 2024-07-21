@@ -4,7 +4,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
+} from "@/components/ui/popover"
 import { InboxNotification, InboxNotificationList, LiveblocksUIConfig } from "@liveblocks/react-ui"
 import { useInboxNotifications, useUnreadInboxNotificationsCount } from "@liveblocks/react/suspense"
 import Image from "next/image"
